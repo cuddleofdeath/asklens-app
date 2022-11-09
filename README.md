@@ -1,3 +1,15 @@
+## AskLens
+
+AskLens is a decentralized app built on top of LensProtocol that lets users post questions and answer questions.
+
+The primary focus of AskLens is to facilitate learning and knowledge sharing. It is a place where people can ask questions and get answers from the community.
+
+### The Feed
+
+Your AskLens feed will be specifically curated with questions that others using the app or tagging their post with #AskLens.
+
+In the future, you'll be able to search different topics like Web Development, Web3 Security, Community Management, etc.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
