@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Container
       css={{
-        backgroundImage: 'linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)',
+        background: 'radial-gradient(ellipse at center, #7DE048, #20C8C4)',
         height: '100vh',
       }}
     >
