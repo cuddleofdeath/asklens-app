@@ -1,5 +1,4 @@
 import { Button, Navbar, Text, Link, Card, Radio } from '@nextui-org/react';
-import './navbar.module.css';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import ConnectBtn from '../connectButton';
 
@@ -24,12 +23,12 @@ const Nav = ({ text }) => (
         justifyContent: 'center',
       }}
     >
-      <Navbar.Link href='#'>Features</Navbar.Link>
+      <Navbar.Link href='#'>Trending</Navbar.Link>
+      <Navbar.Link href='#'>About</Navbar.Link>
+
       <Navbar.Link isActive href='#'>
-        Customers
+        Repo
       </Navbar.Link>
-      <Navbar.Link href='#'>Pricing</Navbar.Link>
-      <Navbar.Link href='#'>Company</Navbar.Link>
     </Navbar.Content>
     <Navbar.Content
       css={{
