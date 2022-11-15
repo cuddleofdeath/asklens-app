@@ -5,6 +5,7 @@ import Btn from './components/button';
 import { Container, Grid, Navbar, Text } from '@nextui-org/react';
 import ChoiceCard from './components/card';
 import Nav from './components/navbar';
+import QContainer from './components/qcontainer';
 
 export default function Home() {
   return (
@@ -25,6 +26,11 @@ export default function Home() {
           <ChoiceCard text='Answer a question' emoji='😎' />
         </Grid>
         <Btn text='GO' />
+      </Grid.Container>
+      <Grid.Container gap={4} justify='center'>
+        <Grid xs={12}>
+          <QContainer />
+        </Grid>
       </Grid.Container>
       {/* Feed */}
       {/* Footer */}

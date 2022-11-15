@@ -23,3 +23,11 @@ a {
     color: white;
   }
 }
+
+button:hover {
+  background-color: #035d2a !important;
+}
+
+button {
+  background-color: rgb(25, 144, 81);
+}

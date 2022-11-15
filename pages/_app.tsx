@@ -15,6 +15,15 @@ import { chain, configureChains, createClient, WagmiConfig } from 'wagmi';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
 
+// import { ApolloClient, InMemoryCache } from '@apollo/client';
+
+// const APIURL = 'https://api-mumbai.lens.dev/';
+
+// const apolloClient = new ApolloClient({
+//   uri: APIURL,
+//   cache: new InMemoryCache(),
+// });
+
 const { chains, provider } = configureChains(
   [chain.polygon],
   [alchemyProvider({ apiKey: process.env.ALCHEMY_ID }), publicProvider()]

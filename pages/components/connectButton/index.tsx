@@ -48,7 +48,6 @@ export default function ConnectBtn() {
                       display: 'flex',
                       justifyContent: 'center',
                       alignItems: 'center',
-                      background: 'red',
                       fontSize: '1rem',
                       borderRadius: '0.5rem',
                       borderStyle: 'none',
@@ -70,7 +69,10 @@ export default function ConnectBtn() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      background: 'red !important',
+                      background: 'green',
+                      boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+                      borderRadius: '1.5rem',
+                      borderStyle: 'none',
                     }}
                   >
                     Wrong network
@@ -84,20 +86,27 @@ export default function ConnectBtn() {
                     onClick={openChainModal}
                     style={{
                       display: 'flex',
+                      justifyContent: 'center',
                       alignItems: 'center',
-                      background: 'red',
+                      fontSize: '1rem',
+                      borderRadius: '0.5rem',
+                      borderStyle: 'none',
+                      width: '10rem',
+                      height: '2.5rem',
+                      boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
                     }}
                     type='button'
                   >
                     {chain.hasIcon && (
                       <div
                         style={{
-                          background: 'red',
+                          background: 'transparent',
                           width: 12,
                           height: 12,
                           borderRadius: 999,
                           overflow: 'hidden',
                           marginRight: 4,
+                          boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
                         }}
                       >
                         {chain.iconUrl && (
@@ -118,8 +127,14 @@ export default function ConnectBtn() {
                     type='button'
                     style={{
                       display: 'flex',
+                      justifyContent: 'center',
                       alignItems: 'center',
-                      backgroundColor: 'red',
+                      fontSize: '1rem',
+                      borderRadius: '0.5rem',
+                      borderStyle: 'none',
+                      width: '10rem',
+                      height: '2.5rem',
+                      boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
                     }}
                   >
                     {account.displayName}
